@@ -5,9 +5,9 @@
   <subtitle>海涛的个人博客</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://lihtao.top/"/>
+  <link href="https://lihaitao.net.cn/"/>
   <updated>2019-01-27T14:32:16.837Z</updated>
-  <id>https://lihtao.top/</id>
+  <id>https://lihaitao.net.cn/</id>
   
   <author>
     <name>海涛</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Nginx反向代理</title>
-    <link href="https://lihtao.top/2018/nginx-proxy/dfa9b87c.html"/>
-    <id>https://lihtao.top/2018/nginx-proxy/dfa9b87c.html</id>
+    <link href="https://lihaitao.net.cn/2018/nginx-proxy/dfa9b87c.html"/>
+    <id>https://lihaitao.net.cn/2018/nginx-proxy/dfa9b87c.html</id>
     <published>2018-12-23T09:31:27.000Z</published>
     <updated>2019-01-27T14:32:16.837Z</updated>
     
@@ -31,17 +31,17 @@
     
     </summary>
     
-      <category term="technology" scheme="https://lihtao.top/categories/technology/"/>
+      <category term="technology" scheme="https://lihaitao.net.cn/categories/technology/"/>
     
     
-      <category term="Nginx" scheme="https://lihtao.top/tags/Nginx/"/>
+      <category term="Nginx" scheme="https://lihaitao.net.cn/tags/Nginx/"/>
     
   </entry>
   
   <entry>
     <title>Linux常用命令</title>
-    <link href="https://lihtao.top/2018/linux-0/d0edc1ed.html"/>
-    <id>https://lihtao.top/2018/linux-0/d0edc1ed.html</id>
+    <link href="https://lihaitao.net.cn/2018/linux-0/d0edc1ed.html"/>
+    <id>https://lihaitao.net.cn/2018/linux-0/d0edc1ed.html</id>
     <published>2018-12-22T07:06:42.000Z</published>
     <updated>2019-01-24T14:04:45.050Z</updated>
     
@@ -54,17 +54,17 @@
     
     </summary>
     
-      <category term="technology" scheme="https://lihtao.top/categories/technology/"/>
+      <category term="technology" scheme="https://lihaitao.net.cn/categories/technology/"/>
     
     
-      <category term="Linux" scheme="https://lihtao.top/tags/Linux/"/>
+      <category term="Linux" scheme="https://lihaitao.net.cn/tags/Linux/"/>
     
   </entry>
   
   <entry>
     <title>远程连接MySQL</title>
-    <link href="https://lihtao.top/2018/mysql-0/88d723d5.html"/>
-    <id>https://lihtao.top/2018/mysql-0/88d723d5.html</id>
+    <link href="https://lihaitao.net.cn/2018/mysql-0/88d723d5.html"/>
+    <id>https://lihaitao.net.cn/2018/mysql-0/88d723d5.html</id>
     <published>2018-12-22T02:52:34.000Z</published>
     <updated>2019-01-24T14:05:09.274Z</updated>
     
@@ -77,17 +77,17 @@
     
     </summary>
     
-      <category term="technology" scheme="https://lihtao.top/categories/technology/"/>
+      <category term="technology" scheme="https://lihaitao.net.cn/categories/technology/"/>
     
     
-      <category term="MySQL" scheme="https://lihtao.top/tags/MySQL/"/>
+      <category term="MySQL" scheme="https://lihaitao.net.cn/tags/MySQL/"/>
     
   </entry>
   
   <entry>
     <title>安装kali虚拟机</title>
-    <link href="https://lihtao.top/2018/kali-vm/8d2aafa7.html"/>
-    <id>https://lihtao.top/2018/kali-vm/8d2aafa7.html</id>
+    <link href="https://lihaitao.net.cn/2018/kali-vm/8d2aafa7.html"/>
+    <id>https://lihaitao.net.cn/2018/kali-vm/8d2aafa7.html</id>
     <published>2018-12-09T08:16:26.000Z</published>
     <updated>2019-01-24T13:59:42.190Z</updated>
     
@@ -100,17 +100,17 @@
     
     </summary>
     
-      <category term="technology" scheme="https://lihtao.top/categories/technology/"/>
+      <category term="technology" scheme="https://lihaitao.net.cn/categories/technology/"/>
     
     
-      <category term="Linux" scheme="https://lihtao.top/tags/Linux/"/>
+      <category term="Linux" scheme="https://lihaitao.net.cn/tags/Linux/"/>
     
   </entry>
   
   <entry>
     <title>将Hexo部署到vps，实现自动发布</title>
-    <link href="https://lihtao.top/2018/vps/22a52aa9.html"/>
-    <id>https://lihtao.top/2018/vps/22a52aa9.html</id>
+    <link href="https://lihaitao.net.cn/2018/vps/22a52aa9.html"/>
+    <id>https://lihaitao.net.cn/2018/vps/22a52aa9.html</id>
     <published>2018-11-24T14:33:35.000Z</published>
     <updated>2019-01-24T14:41:16.688Z</updated>
     
@@ -123,17 +123,17 @@
     
     </summary>
     
-      <category term="technology" scheme="https://lihtao.top/categories/technology/"/>
+      <category term="technology" scheme="https://lihaitao.net.cn/categories/technology/"/>
     
     
-      <category term="Hexo" scheme="https://lihtao.top/tags/Hexo/"/>
+      <category term="Hexo" scheme="https://lihaitao.net.cn/tags/Hexo/"/>
     
   </entry>
   
   <entry>
     <title>Maupassant主题个性化</title>
-    <link href="https://lihtao.top/2018/maupassant/b3f8163.html"/>
-    <id>https://lihtao.top/2018/maupassant/b3f8163.html</id>
+    <link href="https://lihaitao.net.cn/2018/maupassant/b3f8163.html"/>
+    <id>https://lihaitao.net.cn/2018/maupassant/b3f8163.html</id>
     <published>2018-11-24T08:20:26.000Z</published>
     <updated>2019-01-24T14:03:58.343Z</updated>
     
@@ -146,17 +146,17 @@
     
     </summary>
     
-      <category term="technology" scheme="https://lihtao.top/categories/technology/"/>
+      <category term="technology" scheme="https://lihaitao.net.cn/categories/technology/"/>
     
     
-      <category term="Hexo" scheme="https://lihtao.top/tags/Hexo/"/>
+      <category term="Hexo" scheme="https://lihaitao.net.cn/tags/Hexo/"/>
     
   </entry>
   
   <entry>
     <title>用Hexo搭建博客</title>
-    <link href="https://lihtao.top/2018/hexo/63c39d22.html"/>
-    <id>https://lihtao.top/2018/hexo/63c39d22.html</id>
+    <link href="https://lihaitao.net.cn/2018/hexo/63c39d22.html"/>
+    <id>https://lihaitao.net.cn/2018/hexo/63c39d22.html</id>
     <published>2018-11-24T08:20:26.000Z</published>
     <updated>2019-01-24T14:00:35.233Z</updated>
     
@@ -169,17 +169,17 @@
     
     </summary>
     
-      <category term="technology" scheme="https://lihtao.top/categories/technology/"/>
+      <category term="technology" scheme="https://lihaitao.net.cn/categories/technology/"/>
     
     
-      <category term="Hexo" scheme="https://lihtao.top/tags/Hexo/"/>
+      <category term="Hexo" scheme="https://lihaitao.net.cn/tags/Hexo/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="https://lihtao.top/2018/hello-world/4a17b156.html"/>
-    <id>https://lihtao.top/2018/hello-world/4a17b156.html</id>
+    <link href="https://lihaitao.net.cn/2018/hello-world/4a17b156.html"/>
+    <id>https://lihaitao.net.cn/2018/hello-world/4a17b156.html</id>
     <published>2018-07-24T08:20:26.000Z</published>
     <updated>2019-01-27T14:53:52.318Z</updated>
     
@@ -191,10 +191,10 @@
     
     </summary>
     
-      <category term="emotion" scheme="https://lihtao.top/categories/emotion/"/>
+      <category term="emotion" scheme="https://lihaitao.net.cn/categories/emotion/"/>
     
     
-      <category term="Hexo" scheme="https://lihtao.top/tags/Hexo/"/>
+      <category term="Hexo" scheme="https://lihaitao.net.cn/tags/Hexo/"/>
     
   </entry>
   
