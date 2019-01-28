@@ -181,16 +181,13 @@
     <link href="https://lihaitao.net.cn/2018/hello-world/4a17b156.html"/>
     <id>https://lihaitao.net.cn/2018/hello-world/4a17b156.html</id>
     <published>2018-07-24T08:20:26.000Z</published>
-    <updated>2019-01-28T01:39:07.008Z</updated>
+    <updated>2019-01-28T01:41:11.699Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><a id="more"></a><p>Hello World！</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Hello World！<br><a id="more"></a></p>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
-      
+      &lt;p&gt;Hello World！&lt;br&gt;
     
     </summary>
     
