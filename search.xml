@@ -80,7 +80,7 @@
   <entry>
     <title><![CDATA[Hello World]]></title>
     <url>%2F2018%2Fhello-world%2F4a17b156.html</url>
-    <content type="text"><![CDATA[(function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"video":{"url":"https://lihtao-1257343120.cos.ap-shanghai.myqcloud.com/video/videoplayback.mp4"},"danmaku":{"id":"23fcf96d70494b81c5084c0da6a6e8d84a9c5d20\"loop=false\"","api":"https://api.prprpr.me/dplayer/"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})() Your browser does not support the video tag.]]></content>
+    <content type="text"><![CDATA[Your browser does not support the video tag.]]></content>
       <categories>
         <category>emotion</category>
       </categories>
