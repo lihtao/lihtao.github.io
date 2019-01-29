@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /donate/
+Disallow: /img/
+Disallow: /page/
+
+Sitemap: https://blog.lihtao.com/sitemap.xml
