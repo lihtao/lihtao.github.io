@@ -25,7 +25,7 @@
   <entry>
     <title><![CDATA[Linux常用命令]]></title>
     <url>%2F2018%2Flinux-0%2Fd0edc1ed.html</url>
-    <content type="text"><![CDATA[发现很多之前用过的Linux命令之后再次使用总是忘记，就简单记一下吧 待更新 Linux下关闭终端继续运行进程 后台运行 1./test.sh &amp; 就是在相应命令的后面添加 &amp;，其他可执行文件一样 关闭终端之后继续运行 1nohup ./test.sh &amp; 显示当前正在执行的进程 top命令 端口及进程管理 查看端口占用情况 1lsof -i :端口号 强制中止端口进程 1234kill -9 $(lsof -i tcp:端口号 -t)非root用户：kill -9 $(sudo lsof -i tcp:端口号 -t)]]></content>
+    <content type="text"><![CDATA[发现很多使用过的Linux命令总是忘记，所以打算把常用的命名整理到这里 待更新 Linux下关闭终端继续运行进程 后台运行 1./test.sh &amp; 就是在相应命令的后面添加 &amp;，其他可执行文件一样 关闭终端之后继续运行 1nohup ./test.sh &amp; 显示当前正在执行的进程 top命令 端口及进程管理 查看端口占用情况 1lsof -i :端口号 强制中止端口进程 1234kill -9 $(lsof -i tcp:端口号 -t)非root用户：kill -9 $(sudo lsof -i tcp:端口号 -t)]]></content>
       <categories>
         <category>technology</category>
       </categories>
