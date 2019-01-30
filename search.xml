@@ -19,7 +19,8 @@
         <category>technology</category>
       </categories>
       <tags>
-        <tag>Nginx</tag>
+        <tag>nginx</tag>
+        <tag>反向代理</tag>
       </tags>
   </entry>
   <entry>
@@ -30,7 +31,7 @@
         <category>technology</category>
       </categories>
       <tags>
-        <tag>Linux</tag>
+        <tag>linux</tag>
       </tags>
   </entry>
   <entry>
@@ -41,7 +42,7 @@
         <category>technology</category>
       </categories>
       <tags>
-        <tag>MySQL</tag>
+        <tag>mysql</tag>
       </tags>
   </entry>
   <entry>
@@ -52,7 +53,8 @@
         <category>technology</category>
       </categories>
       <tags>
-        <tag>Linux</tag>
+        <tag>linux</tag>
+        <tag>虚拟机</tag>
       </tags>
   </entry>
   <entry>
@@ -63,7 +65,8 @@
         <category>technology</category>
       </categories>
       <tags>
-        <tag>Hexo</tag>
+        <tag>hexo</tag>
+        <tag>nginx</tag>
       </tags>
   </entry>
   <entry>
@@ -74,7 +77,8 @@
         <category>technology</category>
       </categories>
       <tags>
-        <tag>Hexo</tag>
+        <tag>hexo</tag>
+        <tag>theme</tag>
       </tags>
   </entry>
   <entry>
@@ -85,7 +89,8 @@
         <category>technology</category>
       </categories>
       <tags>
-        <tag>Hexo</tag>
+        <tag>hexo</tag>
+        <tag>博客搭建</tag>
       </tags>
   </entry>
   <entry>
@@ -96,7 +101,7 @@
         <category>emotion</category>
       </categories>
       <tags>
-        <tag>Hexo</tag>
+        <tag>hexo</tag>
       </tags>
   </entry>
 </search>
