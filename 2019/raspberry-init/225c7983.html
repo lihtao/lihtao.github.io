@@ -128,7 +128,7 @@
 <meta property="og:image" content="https://lihtao-1257343120.cos.ap-shanghai.myqcloud.com/blog/raspberry3.jpg">
 <meta property="og:image" content="https://lihtao-1257343120.cos.ap-shanghai.myqcloud.com/blog/raspberry4.jpg">
 <meta property="og:image" content="https://lihtao-1257343120.cos.ap-shanghai.myqcloud.com/blog/raspberry5.jpg">
-<meta property="og:updated_time" content="2019-01-31T07:23:16.121Z">
+<meta property="og:updated_time" content="2019-01-31T07:25:58.501Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Raspberry初始化配置">
 <meta name="twitter:description" content="对于刚拿到手的树莓派应该如何配置呢？这里记录了一些基本的配置方法。">
@@ -443,7 +443,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  651
+                  655
                 </span>
               
 
@@ -490,11 +490,11 @@
 <p>其他教程是使用如下命令来连接树莓派的：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh pi@raspberrypi.local</span><br></pre></td></tr></table></figure>
 <p>但是我没有连接成功，我使用的命令是<code>ssh pi@IP地址</code>，那么问题来了，我们怎么知道树莓派的IP地址呢？这里介绍两种方法来查看树莓派的IP。</p>
-<p>1、查看路由器，在win命令行中输入<code>ipconfig</code></p>
+<p>方法一：查看路由器，在win命令行中输入<code>ipconfig</code></p>
 <p><img src="https://lihtao-1257343120.cos.ap-shanghai.myqcloud.com/blog/raspberry3.jpg" alt=""></p>
 <p>找到默认网关，然后在浏览器中输入默认网关地址查看树莓派的IP地址</p>
 <p><img src="https://lihtao-1257343120.cos.ap-shanghai.myqcloud.com/blog/raspberry4.jpg" alt=""></p>
-<p>2、使用扫描工具扫描IP段，我使用的工具是<code>Advanced IP Scanner</code>，扫描结果如下图所示：</p>
+<p>方法二：使用扫描工具扫描IP段，我使用的工具是<code>Advanced IP Scanner</code>，扫描结果如下图所示：</p>
 <p><img src="https://lihtao-1257343120.cos.ap-shanghai.myqcloud.com/blog/raspberry5.jpg" alt=""></p>
 <p>然后使用ssh连接即可</p>
 <h2 id="自动连接WiFi"><a href="#自动连接WiFi" class="headerlink" title="自动连接WiFi"></a>自动连接WiFi</h2><p>有一种尴尬的情况就是突然网断了，接着也就和树莓派失去了联系。我们应该如何防止这种突发状况呢？<br>我们可以使用一个脚本进行定时检测，然后自动重连WiFi。<br>下面为配置方法：</p>
