@@ -101,7 +101,7 @@
 
 
 
-  <meta name="keywords" content="hexo,nginx,">
+  <meta name="keywords" content="nginx,hexo,">
 
 
 
@@ -115,7 +115,7 @@
 
 
 <meta name="description" content="​     博客一直放在GitHub上面，今天放到了服务器上，记录了一下简单的流程。供大家参考！">
-<meta name="keywords" content="hexo,nginx">
+<meta name="keywords" content="nginx,hexo">
 <meta property="og:type" content="article">
 <meta property="og:title" content="将Hexo部署到vps，实现自动发布">
 <meta property="og:url" content="https://lihaitao.net.cn/2018/vps/22a52aa9.html">
@@ -130,7 +130,7 @@
 <meta property="og:image" content="https://lihtao-1257343120.cos.ap-shanghai.myqcloud.com/blog/vps5.png">
 <meta property="og:image" content="https://lihtao-1257343120.cos.ap-shanghai.myqcloud.com/blog/vps6.png">
 <meta property="og:image" content="https://lihtao-1257343120.cos.ap-shanghai.myqcloud.com/blog/vps7.jpg">
-<meta property="og:updated_time" content="2019-01-30T04:07:43.276Z">
+<meta property="og:updated_time" content="2019-02-12T15:58:57.297Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="将Hexo部署到vps，实现自动发布">
 <meta name="twitter:description" content="​     博客一直放在GitHub上面，今天放到了服务器上，记录了一下简单的流程。供大家参考！">
@@ -573,7 +573,7 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">#!/bin/bash</span><br><span class="line">GIT_REPO=/home/git/blog.git</span><br><span class="line">TMP_GIT_CLONE=/tmp/blog</span><br><span class="line">PUBLIC_WWW=/var/www/blog</span><br><span class="line">rm -rf $&#123;TMP_GIT_CLONE&#125;</span><br><span class="line">git clone $GIT_REPO $TMP_GIT_CLONE</span><br><span class="line">rm -rf $&#123;PUBLIC_WWW&#125;/*</span><br><span class="line">cp -rf $&#123;TMP_GIT_CLONE&#125;/* $&#123;PUBLIC_WWW&#125;</span><br></pre></td></tr></table></figure>
 <p>保存退出后，执行：<code>chmod +x post-receive</code>赋予这个文件可执行权限。</p>
 <p>好了，以上就是服务器端需要配置的内容。我们还差最后一步就可以完成整个部署了！</p>
-<h2 id="修改配置文件nginx-config"><a href="#修改配置文件nginx-config" class="headerlink" title="修改配置文件nginx_config"></a>修改配置文件nginx_config</h2><p>修改上面的配置文件：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim /usr/local/nginx/conf/nginx_config</span><br></pre></td></tr></table></figure></p>
+<h2 id="修改配置文件nginx-conf"><a href="#修改配置文件nginx-conf" class="headerlink" title="修改配置文件nginx.conf"></a>修改配置文件nginx.conf</h2><p>修改上面的配置文件：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim /usr/local/nginx/conf/nginx_config</span><br></pre></td></tr></table></figure></p>
 <p>然后修改其中两个部分，如下所示：<br><img src="https://lihtao-1257343120.cos.ap-shanghai.myqcloud.com/blog/vps7.jpg" alt=""></p>
 <p>然后<code>重启nginx</code>，方法见<code>nginx安装</code>部分。</p>
 <h2 id="配置本地Hexo的-config-yml"><a href="#配置本地Hexo的-config-yml" class="headerlink" title="配置本地Hexo的_config.yml"></a>配置本地Hexo的_config.yml</h2><p>非常简单，只需要找到本地Hexo博客的站点配置文件_config.yml，找到以下内容并修改：</p>
@@ -644,9 +644,9 @@
       
         <div class="post-tags">
           
-            <a href="/tags/hexo/" rel="tag"><i class="fa fa-tag"></i> hexo</a>
-          
             <a href="/tags/nginx/" rel="tag"><i class="fa fa-tag"></i> nginx</a>
+          
+            <a href="/tags/hexo/" rel="tag"><i class="fa fa-tag"></i> hexo</a>
           
         </div>
       
@@ -892,7 +892,7 @@ show_date_time();
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#搭建流程"><span class="nav-number">1.</span> <span class="nav-text">搭建流程</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#服务器环境搭建"><span class="nav-number">2.</span> <span class="nav-text">服务器环境搭建</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#建立git裸库"><span class="nav-number">3.</span> <span class="nav-text">建立git裸库</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#检查用户组权限"><span class="nav-number">4.</span> <span class="nav-text">检查用户组权限</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#使用git-hooks同步网站根目录"><span class="nav-number">5.</span> <span class="nav-text">使用git-hooks同步网站根目录</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#修改配置文件nginx-config"><span class="nav-number">6.</span> <span class="nav-text">修改配置文件nginx_config</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#配置本地Hexo的-config-yml"><span class="nav-number">7.</span> <span class="nav-text">配置本地Hexo的_config.yml</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#一些需要注意的地方"><span class="nav-number">8.</span> <span class="nav-text">一些需要注意的地方</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#搭建流程"><span class="nav-number">1.</span> <span class="nav-text">搭建流程</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#服务器环境搭建"><span class="nav-number">2.</span> <span class="nav-text">服务器环境搭建</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#建立git裸库"><span class="nav-number">3.</span> <span class="nav-text">建立git裸库</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#检查用户组权限"><span class="nav-number">4.</span> <span class="nav-text">检查用户组权限</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#使用git-hooks同步网站根目录"><span class="nav-number">5.</span> <span class="nav-text">使用git-hooks同步网站根目录</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#修改配置文件nginx-conf"><span class="nav-number">6.</span> <span class="nav-text">修改配置文件nginx.conf</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#配置本地Hexo的-config-yml"><span class="nav-number">7.</span> <span class="nav-text">配置本地Hexo的_config.yml</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#一些需要注意的地方"><span class="nav-number">8.</span> <span class="nav-text">一些需要注意的地方</span></a></li></ol></div>
             
 
           </div>
