@@ -3,4 +3,4 @@ Disallow: /donate/
 Disallow: /img/
 Disallow: /page/
 
-Sitemap: https://blog.lihtao.com/sitemap.xml
+Sitemap: https://lihaitao.net.cn/sitemap.xml
